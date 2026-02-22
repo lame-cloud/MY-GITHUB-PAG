@@ -37,8 +37,7 @@ main img {
     height: auto;
     display: block;
     margin: 20px 0;
-}
-footer {
+}footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -47,18 +46,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;}img {
+
+p {
+    font-size: 1.1em;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;img {
     border: 5px solid #4CAF50;
     border-radius: 10px;
-}main a[href^="mailto:"] {
+}
+
+}
+main a[href^="mailto:"] {
     color: #ff5722;
     font-weight: bold;
 }
-
